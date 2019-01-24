@@ -74,8 +74,13 @@ http {
 
 # Reference
 [Nginx的Stream模块的编译使用](https://www.jianshu.com/p/5dcd1e027e17)
+
 [nginx-latest.sh](https://gist.github.com/Globegitter/685e3739c0f181bda3ec)
+
 [Nginx TCP和UDP负载均衡](https://my.oschina.net/leeck/blog/729443)
+
 [Nginx中转Shadowsocks与负载均衡](https://lxiange.com/posts/nginx-loadbalance.html)
+
 [TCP and UDP Load Balancing](https://docs.nginx.com/nginx/admin-guide/load-balancer/tcp-udp-load-balancer/)
+
 [Choosing an NGINX Plus Load‑Balancing Technique](https://www.nginx.com/blog/choosing-nginx-plus-load-balancing-techniques/)
