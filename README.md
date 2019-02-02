@@ -30,7 +30,7 @@ events {
 stream {
     upstream ss {
         #least_time first_byte;
-        hash $remote_addr consistent;
+        #hash $remote_addr consistent;
         server xx.xx.xx.xx:443 max_fails=10 fail_timeout=60s;
         server xx.xx.xx.xx:443 max_fails=10 fail_timeout=60s;
         server xx.xx.xx.xx:443 max_fails=10 fail_timeout=60s;
