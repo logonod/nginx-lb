@@ -21,7 +21,7 @@ cd /opt/nginx
 
 ```
 user  nobody nogroup;
-worker_processes  2;
+worker_processes  1;
 
 events {
     worker_connections  1024;
@@ -31,10 +31,10 @@ stream {
     upstream ss {
         #least_time first_byte;
         #hash $remote_addr consistent;
-        server xx.xx.xx.xx:443 max_fails=4 fail_timeout=10s;
-        server xx.xx.xx.xx:443 max_fails=4 fail_timeout=10s;
-        server xx.xx.xx.xx:443 max_fails=4 fail_timeout=10s;
-        server xx.xx.xx.xx:443 max_fails=4 fail_timeout=10s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
     }
 
     server {
