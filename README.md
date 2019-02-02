@@ -21,7 +21,7 @@ cd /opt/nginx
 
 ```
 user  nobody nogroup;
-worker_processes  1;
+worker_processes  2;
 
 events {
     worker_connections  1024;
