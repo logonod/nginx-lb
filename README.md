@@ -31,10 +31,10 @@ stream {
     upstream ss {
         #least_time first_byte;
         #hash $remote_addr consistent;
-        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
-        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
-        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
-        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=10s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=1s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=1s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=1s;
+        server xx.xx.xx.xx:443 max_fails=0 fail_timeout=1s;
     }
 
     server {
